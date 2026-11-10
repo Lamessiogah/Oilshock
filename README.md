@@ -41,12 +41,11 @@ L'utilisateur peut sélectionner la stratégie à analyser et lancer les calculs
 Le modèle Black-76 est utilisé pour calculer le prix théorique des options sur contrats à terme.
 
 Pour une option d'achat :
+
+\[
 $$
 C = e^{-rT}\left[F_0N(d_1)-KN(d_2)\right]
 $$
-
-\[
-C=e^{-rT}[F_0N(d_1)-KN(d_2)]
 \]
 
 Avec :
