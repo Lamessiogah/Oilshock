@@ -101,12 +101,13 @@ Cette stratégie permet de bénéficier d'une hausse du prix du Brent, avec une 
 
 **Bull Call Spread**
 
-Cette stratégie consiste à acheter un Call de strike $$ K_1 $$ et à vendre un Call de strike $$ K_2 $$, avec $$ K_1<K_2 $$ .
+Cette stratégie consiste à acheter un Call de strike $K_1$ et à vendre un Call de strike $K_2$, avec $K_1 < K_2$.
 
 Son payoff à l'échéance est :
 
-
-$$ Payoff=\max(F_T-K_1,0)-\max(F_T-K_2,0) $$
+$$
+Payoff = \max(F_T-K_1,0)-\max(F_T-K_2,0)
+$$
 
 
 Elle permet de profiter d'une hausse modérée du sous-jacent, tout en limitant le gain potentiel et le coût initial de la stratégie.
