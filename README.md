@@ -181,7 +181,7 @@ Ce projet a été réalisé en binôme dans le cadre de notre formation.
 Il nous a permis de mobiliser et d'approfondir des compétences en :
 
 - Finance de marché.
-- Produits dérivés et options.
+- Produits dérivés et options
 - Valorisation quantitative.
 - Méthodes numériques et simulations stochastiques.
 - Programmation VBA et automatisation sous Excel.
