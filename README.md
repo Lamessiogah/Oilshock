@@ -94,9 +94,8 @@ Deux stratégies sont étudiées :
 
 Le payoff à l'échéance est :
 
-\[
-Payoff=\max(F_T-K,0)
-\]
+
+$$ Payoff=\max(F_T-K,0) $$
 
 Cette stratégie permet de bénéficier d'une hausse du prix du Brent, avec une perte maximale limitée à la prime payée.
 
