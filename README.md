@@ -75,7 +75,7 @@ $$
 F_T = F_0 \exp\left(-\frac{1}{2}\sigma^2T+\sigma\sqrt{T}Z\right)
 $$
 
-où $Z$ suit une loi normale centrée réduite.
+où Z suit une loi normale centrée réduite.
 Pour chaque simulation, le programme :
 
 1. Génère une variable aléatoire normale.
