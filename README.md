@@ -42,46 +42,40 @@ Le modèle Black-76 est utilisé pour calculer le prix théorique des options su
 
 Pour une option d'achat :
 
-\[
 $$
 C = e^{-rT}\left[F_0N(d_1)-KN(d_2)\right]
 $$
-\]
 
 Avec :
 
-\[
-d_1=\frac{\ln(F_0/K)+\frac{1}{2}\sigma^2T}
-{\sigma\sqrt{T}}
-\]
+$$
+d_1 = \frac{\ln(F_0/K)+\frac{1}{2}\sigma^2T}{\sigma\sqrt{T}}
+$$
 
-\[
-d_2=d_1-\sigma\sqrt{T}
-\]
+$$
+d_2 = d_1-\sigma\sqrt{T}
+$$
 
 où :
 
-- \(F_0\) représente le prix initial du future ;
-- \(K\) représente le prix d'exercice ;
-- \(r\) représente le taux sans risque ;
-- \(\sigma\) représente la volatilité ;
-- \(T\) représente la maturité ;
-- \(N\) désigne la fonction de répartition de la loi normale centrée réduite.
+- $F_0$ représente le prix initial du future ;
+- $K$ représente le prix d'exercice ;
+- $r$ représente le taux sans risque ;
+- $\sigma$ représente la volatilité ;
+- $T$ représente la maturité ;
+- $N$ désigne la fonction de répartition de la loi normale centrée réduite.
 
 ### 3. Simulation de Monte-Carlo
 
-Une seconde méthode de valorisation repose sur la simulation de trajectoires possibles du prix du Brent à l'échéance.
+Une seconde méthode de valorisation repose sur la simulation des trajectoires possibles du prix du Brent à l'échéance.
 
 Le prix simulé est obtenu à partir de :
 
-\[
-F_T=F_0\exp\left(
--\frac{1}{2}\sigma^2T+\sigma\sqrt{T}Z
-\right)
-\]
+$$
+F_T = F_0 \exp\left(-\frac{1}{2}\sigma^2T+\sigma\sqrt{T}Z\right)
+$$
 
-où \(Z\) suit une loi normale centrée réduite.
-
+où $Z$ suit une loi normale centrée réduite.
 Pour chaque simulation, le programme :
 
 1. Génère une variable aléatoire normale.
