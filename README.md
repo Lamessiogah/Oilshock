@@ -172,7 +172,7 @@ OilShock/
 
 Le tableau de bord constitue l'interface principale du projet. Il centralise les paramètres, les résultats de valorisation et les visualisations permettant de comparer les stratégies.
 
-![Tableau de bord OilShock](Screenshots/Dashboard.png)
+![Tableau de bord OilShock](Dashboard.png)
 
 ## 🎓 Contexte académique
 
