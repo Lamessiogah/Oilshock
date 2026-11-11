@@ -114,7 +114,7 @@ Elle permet de profiter d'une hausse modérée du sous-jacent, tout en limitant 
 
 ### 5. Indicateurs et visualisations
 
-Le tableau de bord affiche notamment :
+Le tableau de bord affiche notamment : 
 
 - Le prix théorique obtenu avec Black-76.
 - Le résultat du scénario étudié.
